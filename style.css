@@ -9,6 +9,13 @@ h1:hover{
     background: cornsilk;
     width: fit-content;
 }
+li:first-child{ 
+    background-color: darksalmon;
+}
+li:nth-child(2n){
+    color:darkred
+}
+
 .pseudo{
     color: rgb(110, 18, 120);
 }
