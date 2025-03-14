@@ -1,0 +1,23 @@
+.practice{
+    color: crimson;
+    font-size: larger;
+    background-color: aqua;
+    width: fit-content;
+}
+h1:hover{
+    color: darkkhaki;
+    background: cornsilk;
+    width: fit-content;
+}
+.pseudo{
+    color: rgb(110, 18, 120);
+}
+input:focus{
+    color: cornflowerblue;
+    outline: chocolate;
+    border: 2px solid brown;
+margin: 5px;
+}
+a:visited{
+    color:darkgreen;
+}
