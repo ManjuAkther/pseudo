@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positions</title>
+    <style>
+        .dummy{
+            border:2px solid red;
+width:200px;
+height:200px;
+        }
+        
+        .box{
+            border:2px dotted tomato;
+            width:200px;
+        }
+        /* .rose{ 
+    
+            position: relative;
+            left:50px;
+        top:30px;
+
+        }*/
+        .rose{
+            position: absolute;
+            top:40px;
+            left:100px;
+            height: 400px;
+            width: 300px;
+        }
+        .flower-frame {
+           position: relative;
+           border:2px solid blueviolet;
+        }  
+    </style>
+</head>
+<body>
+    <h3>CSS Positions</h3>
+    <ol>
+        <!--flaw related-->
+        <li>Static</li>
+        <li>Relative</li>
+        <li>Absolute</li>
+        <!--scroll related-->
+        <li>Fixed</li>
+        <li>Sticky</li>
+    </ol>
+    <div class="flower-frame">
+ <div class="box frame" class="frame"><img src="pics/pexels-nietjuhart-1883385.jpg" alt=""></div>
+ <div class="box rose" class="rose"><img src="pics/pexels-jonaskakaroto-736230.jpg" alt=""></div>
+ <div class="box marian" class="marian"><img src="pics/pexels-mariannaole-757889.jpg" alt=""></div>
+ <div class="dummy">1</div>
+ <div class="dummy">2</div>
+ <div class="dummy">3</div>
+ <div class="dummy">4</div>
+ <div class="dummy">5</div>
+    </div>
+</body>
+</html>
